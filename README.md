@@ -1,4 +1,6 @@
-# Oh My Kubernetes! 🚢
+# Oh My Kubernetes!
+
+![Oh My Kubernetes Logo](/assets/images/logo.png)
 
 Welcome to **Oh My Kubernetes!** — a 42-day series of hands-on tips, gotchas, and insights from the real world of running Kubernetes in production.
 
