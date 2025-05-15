@@ -4,7 +4,7 @@
 
 Welcome to **Oh My Kubernetes!** — a 42-day series of hands-on tips, gotchas, and insights from the real world of running Kubernetes in production.
 
-Whether you're a developer, SRE, or platform engineer, this repo is for you. Each day we cover a small but valuable lesson, from mysterious throttling behavior to ecosystem quirks you won’t find in the docs.
+Whether you're a developer, SRE, or platform engineer, this repo is for you. Each working day we cover a small but valuable lesson, from mysterious throttling behavior to ecosystem quirks you won’t find in the docs.
 
 ---
 
@@ -20,7 +20,7 @@ Whether you're a developer, SRE, or platform engineer, this repo is for you. Eac
 
 Each day is tracked in a markdown file in the `/posts` directory:
 
-
+* [🏃‍♂️ 1st day and km: CPU Throttling Mystery](./posts/day1.md)
 
 You can read them one-by-one or jump to any topic that sparks your interest.
 
