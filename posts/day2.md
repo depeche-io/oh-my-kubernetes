@@ -4,6 +4,9 @@ So I’ve rolled out a new image of my service — changed YAML, rollout went fi
 But... the old Pod kept receiving traffic for up to ~15 seconds after the update.
 That’s a big problem for me.
 
+For a (typically brief) period of time, this is in fact happening:
+![Overlapping traffic](./day2.png)
+
 ## Why?
 My service must run in exactly 1 replica — no overlap. It relies heavily on:
 
@@ -27,8 +30,8 @@ The take-away here is that situation will happen and you need just to think abou
 
 So practically, you have 2 options:
 * either can't start a new Pod in parallel (so the old version is stopped before the new version started) - so you'll see downtime. Check [Deployment.spec.strategy](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/#strategy)
-* or you need to make your Pods (with possibly different version at the same time) work in parallel
+* or you need to make your Pods (with possibly different versions at the same time) work in parallel
 
-_Note: You can check native Kubernetes mechanism called [Leases](https://kubernetes.io/docs/concepts/architecture/leases/) which serve as a kind of lock guaranteeing that only on Pod at a time can hold it._
+_Note: You can check native Kubernetes mechanism called [Leases](https://kubernetes.io/docs/concepts/architecture/leases/) which serve as a kind of a lock guaranteeing that only on Pod at a time can hold it._
 
 [Back](../)
