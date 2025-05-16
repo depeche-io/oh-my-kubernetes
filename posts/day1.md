@@ -10,7 +10,7 @@ Yes, there’s an explanation. 👇
 Even the service is not hitting Pod CPU limits, it is being CPU throttled. This behaviour is quite strange and should be investigated more in depth - because it limits our ability to control the service correctly for resource constraints.
 
 ## Root cause
-Checking the K8s docs: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/#how-pods-with-resource-limits-are-run 
+Checking the [K8s docs](https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/#how-pods-with-resource-limits-are-run):
 
 ```
 The CPU limit defines a hard ceiling on how much CPU time the container can use. During each scheduling interval (time slice), the Linux kernel checks to see if this limit is exceeded; if so, the kernel waits before allowing that cgroup to resume execution.
