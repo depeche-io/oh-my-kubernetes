@@ -1,8 +1,5 @@
 # 🏃‍♂️ 3nd day and km: 100% Node Efficiency — But at What Cost?
 
-🚨 Oh My Kubernetes! – Day 3 of 42
-Daily drops of DevOps reality.
-
 🔥 100% Node Efficiency — But at What Cost?
 
 You’ve optimized your cluster beautifully.
@@ -10,7 +7,7 @@ Pods are humming. Nodes are maxed out — perfect efficiency.
 
 Then business hours hit.
 Traffic spikes.
-🚨 Autoscaler kicks in... but you wait.
+🚨 Autoscaler kicks in... but you wait. Oh My Kubernetes, what can I do to make it faster?
 
 ## Why?
 Because Kubernetes has to spin up a new node.
@@ -69,5 +66,7 @@ So what will happen - if there is not enough space to schedule a regular workloa
 So you are not doing any magic here, just "pre-provisioning" node or nodes to be able to very quickly react with Pod autoscaling. Of course the reaction is limited with how many nodes you have pre-provisioned.
 
 If you are interested more in scaling, checkout my [session from TechMeetup](https://medium.com/@davidpech_39825/serverless-kubernetes-wasm-vs-knative-vs-regular-autoscaling-bfed679fec27).
+
+![Overlapping traffic](../assets/images/logo-medium.png)
 
 [Back](../)
