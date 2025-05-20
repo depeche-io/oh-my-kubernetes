@@ -1,4 +1,4 @@
-# 🏃‍♂️ 3nd day and km: 100% Node Efficiency — But at What Cost?
+# 🏃‍♂️ 3rd day and km: 100% Node Efficiency — But at What Cost?
 
 🔥 100% Node Efficiency — But at What Cost?
 
