@@ -19,7 +19,7 @@ Not helpful.
 
 A failing admission webhook with `failurePolicy: Fail` = a bricked cluster.
 
-It doesn’t even need to crash — just timeout is enough to make your whole control plane unresponsive to changes. It of course much depends on the (admission webhooks configuration)[https://kubernetes.io/docs/reference/access-authn-authz/extensible-admission-controllers/#timeouts], but for example `Kyverno` in some configurations inspect ALL resource changes.
+It doesn’t even need to crash — just timeout is enough to make your whole control plane unresponsive to changes. It of course much depends on the [admission webhooks configuration](https://kubernetes.io/docs/reference/access-authn-authz/extensible-admission-controllers/#timeouts), but for example `Kyverno` in some configurations inspect ALL resource changes.
 
 ## Root cause
 
@@ -34,6 +34,6 @@ So you have multiple options, either:
 
 It might get even much more complicated, because for example Kyverno is constantly trying to recreate the admission webhook configuration - so you drop it and it's back again in no time.
 
-Would you like to try this situation yourself? I've create a (simulator for this problem on Killercoda)[https://killercoda.com/davidpechcz/scenario/admission-webhooks].
+Would you like to try this situation yourself? I've create a [simulator for this problem on Killercoda](https://killercoda.com/davidpechcz/scenario/admission-webhooks).
 
 [Back](../)
