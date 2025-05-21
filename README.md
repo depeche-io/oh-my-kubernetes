@@ -24,6 +24,7 @@ Each day is tracked in a markdown file in the `/posts` directory:
 * [🏃‍♂️ 2nd day and km: When does networking _really_ switch over after a Deployment update?](./posts/day2.md)
 * [🏃‍♂️ 3rd day and km: 100% Node Efficiency — But at What Cost?](./posts/day3.md)
 * [🏃‍♂️ 4th day and km: Cluster Frozen. Webhook Woes.](./posts/day4.md)
+* [🏃‍♂️ 5th day and km: From VM to Kubernetes — What Could Go Wrong with Networking?](./posts/day5.md)
 
 You can read them one-by-one or jump to any topic that sparks your interest.
 
